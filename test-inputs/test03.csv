@@ -1,0 +1,10 @@
+# input.csv
+# start, end, day of week
+# has leap year
+2020-01-01,2020-12-31,Sunday
+2020-01-01,2020-12-31,Monday
+2020-01-01,2020-12-31,Tuesday
+2020-01-01,2020-12-31,Wednesday
+2020-01-01,2020-12-31,Thursday
+2020-01-01,2020-12-31,Friday
+2020-01-01,2020-12-31,Saturday
