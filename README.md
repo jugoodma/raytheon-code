@@ -19,22 +19,23 @@ testing, documentation, clean-up, etc
 ### Text/File input
 
 1. Place `.csv` file in the root directory of this project
- * Note: file should be formatted as follows:
- ```
- # this is a comment and will be ignored
- # whitespace is trimmed
- # date format: yyyy-MM-dd
- # weekday should be spelled correctly
+    * Note: file should be formatted as follows:
+     ```
+     # this is a comment and will be ignored
+     # whitespace is trimmed
+     # date format: yyyy-MM-dd
+     # weekday should be spelled correctly
 
- startDate,endDate,weekday
+     startDate,endDate,weekday
 
- # eg:
+     # eg:
 
- 2019-01-01, 2019-12-31, Monday
- ```
+     2019-01-01, 2019-12-31, Monday
+     ```
+
 1. Run `CLIDriver.java`
- * You can put the `.csv` file as the first command-line argument: `java.exe CLIDriver.java x.csv`, **or** you the
- program will prompt you for the `.csv` file if you run it without command-line arguments.
+    * You can put the `.csv` file as the first command-line argument: `java.exe CLIDriver.java x.csv`, **or** you the
+    program will prompt you for the `.csv` file if you run it without command-line arguments.
 
 ### GUI input
 
